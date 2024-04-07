@@ -11,7 +11,7 @@ When the command completes, the most recent portion of the output is stored in t
 
 The SSH connection to the target server is closed as soon as the commands are executed without waiting for termination.
 
-## Backed API
+## Backend API
 
 `POST /task`: run the command to the target server
 
