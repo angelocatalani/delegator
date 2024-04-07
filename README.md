@@ -15,10 +15,10 @@ The SSH connection to the target server is closed as soon as the commands are ex
 
 `POST /task`: run the command to the target server
 
-`GET /task/status/<task-id>`: returns the task status together with its most recent portion of the output
+`GET /task/status/<task-id>`: return the task status together with the most recent portion of the output
 
 `PUT /task/status/<task-id>`: update the task status
 
-`GET /task/user`: shows all the tasks executed by the current authenticated user
+`GET /task/user`: return all the tasks executed by the current authenticated user
 
 ## Roadmap
