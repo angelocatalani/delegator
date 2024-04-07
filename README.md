@@ -3,6 +3,7 @@
 The Delegator is a web application to execute commands to pre-configured servers through SSH.
 
 The command output is fecthed asynchronously until the task completes.
+
 To read asynchrously the command's standard output and standard error, 
 they are redirected respectively to the target server local files: <task-id>.stdout and <task-id>.stderr.
 
